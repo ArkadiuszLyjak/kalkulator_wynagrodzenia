@@ -5,12 +5,13 @@
 }
 
 body {
-	margin-top: 1%;
-	font-family: "Montserrat", sans-serif;
-	background-color: #333;
-	font-size: 36px;
-	color: #fff;
+    margin-top: 1%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #3498db; /* Użyj ładnego odcienia niebieskiego */
+    font-size: 36px;
+    color: #fff;
 }
+
 
 .container {
 	margin-bottom: 100px;
