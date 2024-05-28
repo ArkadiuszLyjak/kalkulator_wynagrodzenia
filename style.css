@@ -1,22 +1,24 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	margin-top: 1%;
-	font-family: "Montserrat", sans-serif;
-	background-color: #333;
-	font-size: 36px;
-	color: #fff;
+    margin-top: 1%;
+    font-family: "Montserrat", sans-serif;
+    /*background-color: #3498db; !* Prosty kolor tła *!*/
+    /* Gradient tła (odkomentuj, aby użyć) */
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    font-size: 36px;
+    color: #fff;
 }
 
 .container {
-	margin-bottom: 100px;
-	text-align: center;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 [class*="col"] {
-	border: 2px solid lime;
+    border: 2px solid lime;
 }
