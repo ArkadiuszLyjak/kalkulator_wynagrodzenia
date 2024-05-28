@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html body {
+    background-color: #3498db !important; /* Prosty kolor tła */
+}
+
 body {
     margin-top: 1%;
     font-family: "Montserrat", sans-serif;
