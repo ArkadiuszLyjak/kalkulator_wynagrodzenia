@@ -1,8 +1,78 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Systemowe pliki operacyjne
+.DS_Store
+Thumbs.db
+
+# Logi i tymczasowe pliki systemowe
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Moduły node
+node_modules/
+
+# Pliki konfiguracyjne npm
+package-lock.json
+yarn.lock
+
+# Pliki buildów
+dist/
+build/
+
+# Pliki tymczasowe w trakcie developowania
+.temp/
+.cache/
+
+# Konfiguracja IDE
+.idea/
+.vscode/
+
+# Pliki środowiskowe
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Pliki testowe
+coverage/
+
+# Pliki generowane przez systemy do generowania statycznych stron
+out/
+
+# Pliki specyficzne dla różnych systemów operacyjnych
+*.swp
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Ignorowanie plików specyficznych dla WebStorm
+.idea/
+*.iml
+
+# Ignorowanie plików z frameworków JavaScript
+# React Native
+.expo/
+# Next.js
+.next/
+# Nuxt.js
+.nuxt/
+# Svelte
+.svelte-kit/
+# Gatsby
+.cache/
+public/
+
+# Ignorowanie plików i folderów zależnych od Gulp
+.gulp/
+.gulp-cache/
+
+# Ignorowanie plików TypeScript kompilowanych do JavaScript
+*.tsbuildinfo
+*.js.map
+*.d.ts
+
+# Ignorowanie plików
