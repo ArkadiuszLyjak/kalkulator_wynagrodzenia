@@ -23,7 +23,7 @@ build/
 .cache/
 
 # Konfiguracja IDE
-.idea/
+#.idea/
 .vscode/
 
 # Pliki środowiskowe
